@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="suite_parallel_classes" parallel="methods" thread-count="2">
+
+	<test name="test_parallel_classes">
+		<classes>
+			<class name="sk.qats.distributed.ParallelSimpleTestClass1" />
+			<class name="sk.qats.distributed.ParallelSimpleTestClass2" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->

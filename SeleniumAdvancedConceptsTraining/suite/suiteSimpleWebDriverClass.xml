@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="suite for web driver tests" parallel="classes" thread-count="2">
+
+	<test name="web driver tests">
+		<classes>
+			<class name="sk.qats.distributed.SimpleWebDriverTestClass1" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->

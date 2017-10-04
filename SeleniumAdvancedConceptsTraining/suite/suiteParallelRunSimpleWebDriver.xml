@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="MyParallelWebDriverTestSuite" parallel="classes">
+  <test name="WebDriverTestName">
+    <classes>
+      <class name="sk.qats.distributed.SimpleWebDriverTestClass1"/>
+      <class name="sk.qats.distributed.SimpleWebDriverTestClass2"/>
+    </classes>
+  </test> <!-- WebDriverTestName -->
+</suite> <!-- MyParallelWebDriverTestSuite -->

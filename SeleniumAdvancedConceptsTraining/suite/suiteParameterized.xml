@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="my parametrized suite">
+
+	<test name="my test name">
+		<parameter name="param1" value="env_test" />
+		<parameter name="param2" value="200" />
+		<classes>
+			<class name="sk.qats.distributed.ParametrizedTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
